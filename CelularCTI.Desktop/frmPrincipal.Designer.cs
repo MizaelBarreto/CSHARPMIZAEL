@@ -245,35 +245,38 @@
             // 
             // btnComprar
             // 
-            this.btnComprar.Font = new System.Drawing.Font("Constantia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComprar.Location = new System.Drawing.Point(60, 421);
+            this.btnComprar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnComprar.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComprar.Location = new System.Drawing.Point(39, 421);
             this.btnComprar.Name = "btnComprar";
-            this.btnComprar.Size = new System.Drawing.Size(100, 46);
+            this.btnComprar.Size = new System.Drawing.Size(114, 49);
             this.btnComprar.TabIndex = 6;
             this.btnComprar.Text = "Comprar";
-            this.btnComprar.UseVisualStyleBackColor = true;
+            this.btnComprar.UseVisualStyleBackColor = false;
             this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
             // 
             // btnNovo
             // 
-            this.btnNovo.Font = new System.Drawing.Font("Constantia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovo.BackColor = System.Drawing.Color.Yellow;
+            this.btnNovo.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNovo.Location = new System.Drawing.Point(271, 421);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(100, 46);
             this.btnNovo.TabIndex = 7;
-            this.btnNovo.Text = "Novo";
-            this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Text = "Cadastrar Aparelho";
+            this.btnNovo.UseVisualStyleBackColor = false;
             this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // btnSair
             // 
-            this.btnSair.Font = new System.Drawing.Font("Constantia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.BackColor = System.Drawing.Color.Red;
+            this.btnSair.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.Location = new System.Drawing.Point(482, 421);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(100, 46);
             this.btnSair.TabIndex = 8;
             this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmPrincipal

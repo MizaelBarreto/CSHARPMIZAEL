@@ -52,14 +52,7 @@ namespace CelularCTI.Desktop
             this.Close();
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Lbl_ExibLargura_Click(object sender, EventArgs e)
-        {
-
-        }
+     
+     
     }
 }
