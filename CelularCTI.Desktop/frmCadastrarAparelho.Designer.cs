@@ -65,7 +65,7 @@
             // 
             this.lblFabricante.AutoSize = true;
             this.lblFabricante.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFabricante.Location = new System.Drawing.Point(45, 31);
+            this.lblFabricante.Location = new System.Drawing.Point(262, 12);
             this.lblFabricante.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFabricante.Name = "lblFabricante";
             this.lblFabricante.Size = new System.Drawing.Size(69, 15);
@@ -76,7 +76,7 @@
             // 
             this.lblModelo.AutoSize = true;
             this.lblModelo.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblModelo.Location = new System.Drawing.Point(45, 77);
+            this.lblModelo.Location = new System.Drawing.Point(270, 62);
             this.lblModelo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblModelo.Name = "lblModelo";
             this.lblModelo.Size = new System.Drawing.Size(53, 15);
@@ -86,14 +86,14 @@
             // cmbFabricante
             // 
             this.cmbFabricante.FormattingEnabled = true;
-            this.cmbFabricante.Location = new System.Drawing.Point(131, 31);
+            this.cmbFabricante.Location = new System.Drawing.Point(184, 34);
             this.cmbFabricante.Name = "cmbFabricante";
             this.cmbFabricante.Size = new System.Drawing.Size(234, 21);
             this.cmbFabricante.TabIndex = 3;
             // 
             // txtModelo
             // 
-            this.txtModelo.Location = new System.Drawing.Point(131, 77);
+            this.txtModelo.Location = new System.Drawing.Point(184, 80);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(234, 20);
             this.txtModelo.TabIndex = 4;
@@ -108,9 +108,9 @@
             this.gpbEspecifi.Controls.Add(this.lblAltura);
             this.gpbEspecifi.Controls.Add(this.numLargura);
             this.gpbEspecifi.Controls.Add(this.lblLargura);
-            this.gpbEspecifi.Location = new System.Drawing.Point(48, 135);
+            this.gpbEspecifi.Location = new System.Drawing.Point(136, 127);
             this.gpbEspecifi.Name = "gpbEspecifi";
-            this.gpbEspecifi.Size = new System.Drawing.Size(535, 143);
+            this.gpbEspecifi.Size = new System.Drawing.Size(330, 143);
             this.gpbEspecifi.TabIndex = 5;
             this.gpbEspecifi.TabStop = false;
             this.gpbEspecifi.Text = "Especificações:";
@@ -118,7 +118,7 @@
             // numPeso
             // 
             this.numPeso.DecimalPlaces = 2;
-            this.numPeso.Location = new System.Drawing.Point(377, 104);
+            this.numPeso.Location = new System.Drawing.Point(180, 104);
             this.numPeso.Name = "numPeso";
             this.numPeso.Size = new System.Drawing.Size(133, 20);
             this.numPeso.TabIndex = 13;
@@ -129,7 +129,7 @@
             // 
             this.lblPeso.AutoSize = true;
             this.lblPeso.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeso.Location = new System.Drawing.Point(276, 105);
+            this.lblPeso.Location = new System.Drawing.Point(215, 86);
             this.lblPeso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPeso.Name = "lblPeso";
             this.lblPeso.Size = new System.Drawing.Size(56, 15);
@@ -139,7 +139,7 @@
             // numEspessura
             // 
             this.numEspessura.DecimalPlaces = 2;
-            this.numEspessura.Location = new System.Drawing.Point(377, 42);
+            this.numEspessura.Location = new System.Drawing.Point(180, 42);
             this.numEspessura.Name = "numEspessura";
             this.numEspessura.Size = new System.Drawing.Size(133, 20);
             this.numEspessura.TabIndex = 11;
@@ -150,7 +150,7 @@
             // 
             this.lblEspessura.AutoSize = true;
             this.lblEspessura.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEspessura.Location = new System.Drawing.Point(276, 43);
+            this.lblEspessura.Location = new System.Drawing.Point(202, 24);
             this.lblEspessura.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEspessura.Name = "lblEspessura";
             this.lblEspessura.Size = new System.Drawing.Size(94, 15);
@@ -160,7 +160,7 @@
             // numAltura
             // 
             this.numAltura.DecimalPlaces = 2;
-            this.numAltura.Location = new System.Drawing.Point(97, 104);
+            this.numAltura.Location = new System.Drawing.Point(25, 104);
             this.numAltura.Name = "numAltura";
             this.numAltura.Size = new System.Drawing.Size(133, 20);
             this.numAltura.TabIndex = 9;
@@ -171,7 +171,7 @@
             // 
             this.lblAltura.AutoSize = true;
             this.lblAltura.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAltura.Location = new System.Drawing.Point(7, 105);
+            this.lblAltura.Location = new System.Drawing.Point(56, 86);
             this.lblAltura.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAltura.Name = "lblAltura";
             this.lblAltura.Size = new System.Drawing.Size(76, 15);
@@ -181,7 +181,7 @@
             // numLargura
             // 
             this.numLargura.DecimalPlaces = 2;
-            this.numLargura.Location = new System.Drawing.Point(97, 42);
+            this.numLargura.Location = new System.Drawing.Point(25, 42);
             this.numLargura.Name = "numLargura";
             this.numLargura.Size = new System.Drawing.Size(133, 20);
             this.numLargura.TabIndex = 7;
@@ -192,7 +192,7 @@
             // 
             this.lblLargura.AutoSize = true;
             this.lblLargura.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLargura.Location = new System.Drawing.Point(7, 43);
+            this.lblLargura.Location = new System.Drawing.Point(49, 24);
             this.lblLargura.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLargura.Name = "lblLargura";
             this.lblLargura.Size = new System.Drawing.Size(83, 15);
@@ -207,11 +207,12 @@
             this.gpbValores.Controls.Add(this.lblDesconto);
             this.gpbValores.Controls.Add(this.numPreco);
             this.gpbValores.Controls.Add(this.lblPreço);
-            this.gpbValores.Location = new System.Drawing.Point(48, 310);
+            this.gpbValores.Location = new System.Drawing.Point(46, 276);
             this.gpbValores.Name = "gpbValores";
             this.gpbValores.Size = new System.Drawing.Size(535, 96);
             this.gpbValores.TabIndex = 14;
             this.gpbValores.TabStop = false;
+            this.gpbValores.Enter += new System.EventHandler(this.gpbValores_Enter);
             // 
             // numQuantidade
             // 
@@ -242,7 +243,7 @@
             // numDesconto
             // 
             this.numDesconto.DecimalPlaces = 2;
-            this.numDesconto.Location = new System.Drawing.Point(377, 29);
+            this.numDesconto.Location = new System.Drawing.Point(362, 47);
             this.numDesconto.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -258,7 +259,7 @@
             // 
             this.lblDesconto.AutoSize = true;
             this.lblDesconto.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesconto.Location = new System.Drawing.Point(276, 30);
+            this.lblDesconto.Location = new System.Drawing.Point(290, 48);
             this.lblDesconto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDesconto.Name = "lblDesconto";
             this.lblDesconto.Size = new System.Drawing.Size(64, 15);
@@ -303,7 +304,7 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(58, 412);
+            this.btnSalvar.Location = new System.Drawing.Point(371, 378);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(95, 37);
             this.btnSalvar.TabIndex = 15;
@@ -313,7 +314,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(463, 412);
+            this.btnCancelar.Location = new System.Drawing.Point(472, 378);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(95, 37);
             this.btnCancelar.TabIndex = 16;
@@ -325,6 +326,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(620, 450);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnSalvar);

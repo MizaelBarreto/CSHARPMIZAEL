@@ -82,7 +82,7 @@ namespace CelularCTI.Desktop
             }
             else
             {
-                DialogResult dr = MessageBox.Show("Deseja comprar o aparelho " + ap.Modelo + "?", Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                /*DialogResult dr = MessageBox.Show("Deseja comprar o aparelho " + ap.Modelo + "?", Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dr == DialogResult.Yes)
                 {
                     ap.Quantidade -= 1;
@@ -94,7 +94,10 @@ namespace CelularCTI.Desktop
                 else
                 {
                     MessageBox.Show("Compra cancelada", Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                }*/
+
+                frmCompra form = new frmCompra(ap);
+                form.ShowDialog();
             }
 
 

@@ -63,5 +63,12 @@ namespace CelularCTI.Desktop
         {
             this.Close();
         }
+
+        private void gpbValores_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
 }

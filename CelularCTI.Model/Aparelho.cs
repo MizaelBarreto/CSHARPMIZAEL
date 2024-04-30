@@ -27,6 +27,7 @@ namespace CelularCTI.Model
         public double Espessura { get; set; }
         public double Largura { get; set; }
         public double Peso { get; set; }
+
         public long Quantidade { get; set; }
 
         public decimal Preco
