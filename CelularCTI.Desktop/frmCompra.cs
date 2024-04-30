@@ -46,8 +46,7 @@ namespace CelularCTI.Desktop
 
         private void Btn_Comprar_Click(object sender, EventArgs e)
         {
-            ap.Quantidade -= 1;
-            Servico.Salvar(ap);
+            Servico.FazerPedido(ap);
             MessageBox.Show("Aparelho comprado com sucesso", Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }

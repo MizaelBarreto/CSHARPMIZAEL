@@ -83,7 +83,6 @@
             this.cmbFabricante.Name = "cmbFabricante";
             this.cmbFabricante.Size = new System.Drawing.Size(310, 23);
             this.cmbFabricante.TabIndex = 10;
-            this.cmbFabricante.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cmbFabricante_KeyPress);
             // 
             // btnFabricante
             // 
@@ -144,12 +143,12 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(222, 49);
+            this.label4.Location = new System.Drawing.Point(216, 55);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 15);
+            this.label4.Size = new System.Drawing.Size(24, 15);
             this.label4.TabIndex = 5;
-            this.label4.Text = "a";
+            this.label4.Text = "até";
             // 
             // txtModelo
             // 
@@ -226,11 +225,11 @@
             // 
             // btnRecarregar
             // 
-            this.btnRecarregar.Location = new System.Drawing.Point(7, 175);
+            this.btnRecarregar.Location = new System.Drawing.Point(24, 172);
             this.btnRecarregar.Name = "btnRecarregar";
             this.btnRecarregar.Size = new System.Drawing.Size(165, 23);
             this.btnRecarregar.TabIndex = 1;
-            this.btnRecarregar.Text = "Atualizar";
+            this.btnRecarregar.Text = "Listar todos";
             this.btnRecarregar.UseVisualStyleBackColor = true;
             this.btnRecarregar.Click += new System.EventHandler(this.btnRecarregar_Click);
             // 
@@ -294,6 +293,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmPrincipal";
             this.Text = "Buscar aparelhos";
+            this.Activated += new System.EventHandler(this.frmPrincipal_Activated);
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

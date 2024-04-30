@@ -28,8 +28,7 @@ namespace CelularCTI.Desktop
             cmbFabricante.ValueMember = "id_fabricante";
             cmbFabricante.DisplayMember = "Nome";
 
-            aparelhos = Servico.BuscarAparelho("");
-            lstCelulares.DataSource = aparelhos;
+
 
         }
 
@@ -51,10 +50,7 @@ namespace CelularCTI.Desktop
             lstCelulares.DataSource = aparelhos;
         }
 
-        private void cmbFabricante_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = true;
-        }
+       
 
 
         private void btnNovo_Click(object sender, EventArgs e)
@@ -70,9 +66,7 @@ namespace CelularCTI.Desktop
 
         private void btnComprar_Click(object sender, EventArgs e)
         {
-            //Abrir um popup perguntando se deseja comprar o aparelho selecionado (na ListBox)
-            //Se sim, reduzir 1 na quantidad em estoque e salvar no banco
-            //Se não, não fazer nada
+           
             Aparelho ap = lstCelulares.SelectedItem as Aparelho;
 
             if (ap == null)
@@ -82,19 +76,6 @@ namespace CelularCTI.Desktop
             }
             else
             {
-                /*DialogResult dr = MessageBox.Show("Deseja comprar o aparelho " + ap.Modelo + "?", Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (dr == DialogResult.Yes)
-                {
-                    ap.Quantidade -= 1;
-                    Servico.Salvar(ap);
-                    MessageBox.Show("Aparelho comprado com sucesso", Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    aparelhos = Servico.BuscarAparelho("");
-                    lstCelulares.DataSource = aparelhos;
-                }
-                else
-                {
-                    MessageBox.Show("Compra cancelada", Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }*/
 
                 frmCompra form = new frmCompra(ap);
                 form.ShowDialog();
@@ -104,6 +85,12 @@ namespace CelularCTI.Desktop
         }
 
         private void btnRecarregar_Click(object sender, EventArgs e)
+        {
+            aparelhos = Servico.BuscarAparelho("");
+            lstCelulares.DataSource = aparelhos;
+        }
+
+        private void frmPrincipal_Activated(object sender, EventArgs e)
         {
             aparelhos = Servico.BuscarAparelho("");
             lstCelulares.DataSource = aparelhos;
